@@ -74,11 +74,14 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+<<<<<<< HEAD
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
     rack-ssl-enforcer (0.2.9)
     rake (10.5.0)
+=======
+>>>>>>> parent of 21c8aba... add rake
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -121,11 +124,7 @@ DEPENDENCIES
   jekyll-auth (= 2.1.1)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
-  rake
   tzinfo-data
-
-RUBY VERSION
-   ruby 2.6.0p0
 
 BUNDLED WITH
    1.17.2

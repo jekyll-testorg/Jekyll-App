@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby '2.6.0'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -31,6 +30,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 #To work with Heroku
 gem "rake"
-
-# jekyll auth
-gem 'jekyll-auth','2.1.1'
