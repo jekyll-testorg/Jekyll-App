@@ -2,6 +2,16 @@
 {% include head.html %}
 {% include nav.html %}
 
-{% include dashboard.html %}
+<section id="dashboard"  class="mt-5">
+  <div class="container-fluid">
+    <div class="row">
+      {% include left-nav.html %}
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        {% include dashboard.html %}
+      </main>
+    </div>
+  </div>
+</section>
 
 {% include footer.html %}
